@@ -11,14 +11,14 @@ PImage img; // our image
 void setup() {
 
   img = loadImage("ldr.jpg");// load the image
-  size(img.width*2, img.height);// set the size based on image
+  size(200, img.height);// set the size based on image
   t = new ColorThief(); // init the color thief object
   // PImage to buffered
   BufferedImage bimg = (BufferedImage) img.getImage();
 
   // create the palette
   // a value of 5 will give you size colors
-  int[][] palette = t.getPalette(bimg, 5);
+  int[][] palette = t.getPalette(bimg, 10);
   // calc the sizes
   int step = width / palette.length;
   int y = 0;

@@ -1,9 +1,14 @@
 color_thief
 ===========
+in Processing.  
 
-in Processing.
+![](ldr-palette.png)  
 
-compile the class using these commands:  
+------
+
+###How to compile the class?
+
+Use these commands:  
 
     javac de/androidpit/colorthief/ColorThief.java
 
